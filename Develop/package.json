@@ -4,15 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
+    "start:dev": "npm --prefix server run server && npm --prefix client run dev",
+    "start": "npm --prefix client start",
+    "server": "npm --prefix server run server",
+    "build": "npm --prefix client run build",
+    "install": "npm --prefix client install  && npm --prefix server install",
     "client": ""
   },
   "keywords": [],
-  "author": "",
+  "author": "Renee Rodriguez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

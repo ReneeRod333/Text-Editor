@@ -1,0 +1,73 @@
+# Ignore node_modules directory in both client and server
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore build/ and dist/ directories
+client/build/
+client/dist/
+server/build/
+server/dist/
+
+# Ignore environment variables
+client/.env
+server/.env
+
+# Ignore log files
+client/npm-debug.log*
+server/npm-debug.log*
+client/yarn-debug.log*
+server/yarn-debug.log*
+client/yarn-error.log*
+server/yarn-error.log*
+client/pnpm-debug.log*
+server/pnpm-debug.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore temporary files and folders
+client/tmp/
+server/tmp/
+client/temp/
+server/temp/
+
+# Ignore coverage reports
+client/coverage/
+server/coverage/
+
+# Ignore production environment files
+client/.env.production
+server/.env.production
+
+# Ignore package-lock.json and yarn.lock files
+package-lock.json
+yarn.lock
+client/package-lock.json
+server/package-lock.json
+client/yarn.lock
+server/yarn.lock
+
+# Ignore compiled files
+client/*.tsbuildinfo
+server/*.tsbuildinfo
+
+# Ignore compiled and minified files
+client/*.min.js
+server/*.min.js
+client/*.min.css
+server/*.min.css
+
+# Ignore cache directories
+client/.cache/
+server/.cache/
+
+# Ignore local database files
+client/*.sqlite3
+server/*.sqlite3
+
